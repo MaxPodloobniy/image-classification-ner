@@ -23,4 +23,9 @@ warn_redundant_casts = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "-ra --strict-markers"
+addopts = "-ra --strict-markers --cov=src --cov-report=term-missing --cov-fail-under=50"
+
+[tool.coverage.run]
+omit = [
+    "src/classifier/train_classifier.py",  # full training loop, integration-only
+]
