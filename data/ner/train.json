@@ -1,0 +1,1924 @@
+[
+    {
+        "text": "The hippopotamus is a large mammal.",
+        "entities": [
+            [
+                4,
+                16,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A rhinoceros grazed quietly.",
+        "entities": [
+            [
+                2,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Deer are common in this region.",
+        "entities": [
+            [
+                0,
+                4,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Elephants are the largest land animals.",
+        "entities": [
+            [
+                0,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Rhinoceroses have thick skin.",
+        "entities": [
+            [
+                0,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Ducks are often found in ponds.",
+        "entities": [
+            [
+                0,
+                5,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "She poured herself a cup of coffee.",
+        "entities": []
+    },
+    {
+        "text": "A deer is visible in this picture.",
+        "entities": [
+            [
+                2,
+                6,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "He sat quietly in the corner of the room.",
+        "entities": []
+    },
+    {
+        "text": "A duck is present in this photograph.",
+        "entities": [
+            [
+                2,
+                6,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The sanctuary treats included fruits for the chimpanzee and seeds for the ducks.",
+        "entities": [
+            [
+                45,
+                55,
+                "ANIMAL"
+            ],
+            [
+                74,
+                79,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "They walked to the store together.",
+        "entities": []
+    },
+    {
+        "text": "A coyote was hunting in the desert.",
+        "entities": [
+            [
+                2,
+                8,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A kangaroo carried its joey.",
+        "entities": [
+            [
+                2,
+                10,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The hedgehog curled by the gate while a kangaroo hopped into the paddock.",
+        "entities": [
+            [
+                4,
+                12,
+                "ANIMAL"
+            ],
+            [
+                40,
+                48,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A hedgehog curled up.",
+        "entities": [
+            [
+                2,
+                10,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The chimpanzee was eating bananas.",
+        "entities": [
+            [
+                4,
+                14,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Tigers are excellent hunters.",
+        "entities": [
+            [
+                0,
+                6,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The hedgehog has sharp spines.",
+        "entities": [
+            [
+                4,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The elephant used its trunk to grab food.",
+        "entities": [
+            [
+                4,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The deer was grazing in the field.",
+        "entities": [
+            [
+                4,
+                8,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The street was empty late at night.",
+        "entities": []
+    },
+    {
+        "text": "Children tossed breadcrumbs while a duck and a hedgehog found treats at the park edge.",
+        "entities": [
+            [
+                36,
+                40,
+                "ANIMAL"
+            ],
+            [
+                47,
+                55,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "An eagle swooped down.",
+        "entities": [
+            [
+                3,
+                8,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "We watched a chimpanzee groom another chimpanzee while an eagle landed on a nearby branch.",
+        "entities": [
+            [
+                13,
+                23,
+                "ANIMAL"
+            ],
+            [
+                38,
+                48,
+                "ANIMAL"
+            ],
+            [
+                58,
+                63,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "This photo has an eagle in it.",
+        "entities": [
+            [
+                18,
+                23,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "She wore a red dress to the wedding.",
+        "entities": []
+    },
+    {
+        "text": "The children's book pictured an elephant, a rhinoceros, and a hippopotamus sharing a bath.",
+        "entities": [
+            [
+                32,
+                40,
+                "ANIMAL"
+            ],
+            [
+                44,
+                54,
+                "ANIMAL"
+            ],
+            [
+                62,
+                74,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Rhinoceroses use their horns for defense.",
+        "entities": [
+            [
+                0,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Kangaroos are native to Australia.",
+        "entities": [
+            [
+                0,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The movie was more interesting than I expected.",
+        "entities": []
+    },
+    {
+        "text": "A deer jumped over the fence.",
+        "entities": [
+            [
+                2,
+                6,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The eagle spread its wings wide.",
+        "entities": [
+            [
+                4,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Hedgehogs have spiky fur.",
+        "entities": [
+            [
+                0,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The library closed earlier than expected.",
+        "entities": []
+    },
+    {
+        "text": "A mallard duck landed.",
+        "entities": [
+            [
+                10,
+                14,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A deer crossed the road suddenly.",
+        "entities": [
+            [
+                2,
+                6,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I saw a tiny hedgehog in the garden.",
+        "entities": [
+            [
+                13,
+                21,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I saw a huge rhinoceros at the safari.",
+        "entities": [
+            [
+                13,
+                23,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The clock on the wall had stopped working.",
+        "entities": []
+    },
+    {
+        "text": "He watched the sunset from the balcony.",
+        "entities": []
+    },
+    {
+        "text": "The shop closed earlier than usual.",
+        "entities": []
+    },
+    {
+        "text": "Elephants have strong memories.",
+        "entities": [
+            [
+                0,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "During the research trip the team observed a hedgehog, a chimpanzee, and a coyote within hours.",
+        "entities": [
+            [
+                45,
+                53,
+                "ANIMAL"
+            ],
+            [
+                57,
+                67,
+                "ANIMAL"
+            ],
+            [
+                75,
+                81,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "He closed the window because it was cold.",
+        "entities": []
+    },
+    {
+        "text": "I saw a golden eagle in the mountains.",
+        "entities": [
+            [
+                15,
+                20,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A baby elephant followed.",
+        "entities": [
+            [
+                7,
+                15,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A rhinoceros grazed tranquilly while nearby a hippopotamus wallowed and a duck bobbed on the water.",
+        "entities": [
+            [
+                2,
+                12,
+                "ANIMAL"
+            ],
+            [
+                46,
+                58,
+                "ANIMAL"
+            ],
+            [
+                74,
+                78,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "You can find a kangaroo in this picture.",
+        "entities": [
+            [
+                15,
+                23,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The road was closed because of construction.",
+        "entities": []
+    },
+    {
+        "text": "The train arrived five minutes late.",
+        "entities": []
+    },
+    {
+        "text": "We watched a playful chimpanzee at the zoo.",
+        "entities": [
+            [
+                21,
+                31,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The sun was shining brightly.",
+        "entities": []
+    },
+    {
+        "text": "A duck family paddled past the boat where the guide pointed out a distant kangaroo on the shore.",
+        "entities": [
+            [
+                2,
+                6,
+                "ANIMAL"
+            ],
+            [
+                74,
+                82,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Eagles build nests on tall cliffs.",
+        "entities": [
+            [
+                0,
+                6,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "She wrote her notes in a small notebook.",
+        "entities": []
+    },
+    {
+        "text": "There is an eagle in the image.",
+        "entities": [
+            [
+                12,
+                17,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I saw a white tiger at the zoo.",
+        "entities": [
+            [
+                14,
+                19,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I saw a kangaroo boxing with another one.",
+        "entities": [
+            [
+                8,
+                16,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "An eagle's shadow fell on the elephant as it crossed the plain.",
+        "entities": [
+            [
+                3,
+                10,
+                "ANIMAL"
+            ],
+            [
+                30,
+                38,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "He looked at the stars through a telescope.",
+        "entities": []
+    },
+    {
+        "text": "Coyotes adapt well to urban areas.",
+        "entities": [
+            [
+                0,
+                7,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The kangaroo protected its joey while the nearby tiger paced the edge of the clearing.",
+        "entities": [
+            [
+                4,
+                12,
+                "ANIMAL"
+            ],
+            [
+                49,
+                54,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "This photo contains a hippopotamus.",
+        "entities": [
+            [
+                22,
+                34,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Kangaroos are strong jumpers.",
+        "entities": [
+            [
+                0,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A hedgehog curled into a ball.",
+        "entities": [
+            [
+                2,
+                10,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I see a tiger in this image.",
+        "entities": [
+            [
+                8,
+                13,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The conference will start at nine o'clock.",
+        "entities": []
+    },
+    {
+        "text": "This picture has a tiger in it.",
+        "entities": [
+            [
+                19,
+                24,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I watched a documentary about chimpanzees.",
+        "entities": [
+            [
+                30,
+                41,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A young kangaroo and a deer paused at the fence to peer at the visitors.",
+        "entities": [
+            [
+                8,
+                16,
+                "ANIMAL"
+            ],
+            [
+                23,
+                27,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Researchers tagged a hedgehog and later released it near the oak, where a coyote had been seen earlier.",
+        "entities": [
+            [
+                21,
+                29,
+                "ANIMAL"
+            ],
+            [
+                74,
+                80,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "This photo contains a rhinoceros.",
+        "entities": [
+            [
+                22,
+                32,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A chimpanzee grabbed a stick and an eagle ignored the commotion as it circled above.",
+        "entities": [
+            [
+                2,
+                12,
+                "ANIMAL"
+            ],
+            [
+                36,
+                41,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The restaurant was full of people at lunch.",
+        "entities": []
+    },
+    {
+        "text": "The conservationist recorded calls from a coyote and marked tracks from a deer the same day.",
+        "entities": [
+            [
+                42,
+                48,
+                "ANIMAL"
+            ],
+            [
+                74,
+                78,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "This image includes a deer.",
+        "entities": [
+            [
+                22,
+                26,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Chimpanzees are intelligent animals.",
+        "entities": [
+            [
+                0,
+                11,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The rhinoceros was drinking water.",
+        "entities": [
+            [
+                4,
+                14,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I can see a hedgehog in this image.",
+        "entities": [
+            [
+                12,
+                20,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "That chimpanzee is curious.",
+        "entities": [
+            [
+                5,
+                15,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Tourists watched a hippopotamus surface and an eagle swoop down to grab a fish.",
+        "entities": [
+            [
+                19,
+                31,
+                "ANIMAL"
+            ],
+            [
+                47,
+                52,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The tiger roared loudly.",
+        "entities": [
+            [
+                4,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "In the meadow the deer nibbled clover while an eagle perched on a fencepost.",
+        "entities": [
+            [
+                18,
+                22,
+                "ANIMAL"
+            ],
+            [
+                47,
+                52,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The tiger roared loudly in the jungle.",
+        "entities": [
+            [
+                4,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "There is a coyote in this picture.",
+        "entities": [
+            [
+                11,
+                17,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "There is an elephant in this image.",
+        "entities": [
+            [
+                12,
+                20,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "An elephant is present in the photo.",
+        "entities": [
+            [
+                3,
+                11,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "During the safari the guide pointed out a tiger and later an elephant near the waterhole.",
+        "entities": [
+            [
+                42,
+                47,
+                "ANIMAL"
+            ],
+            [
+                61,
+                69,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Kangaroos carry their babies in pouches.",
+        "entities": [
+            [
+                0,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A hedgehog's spines glistened with dew and a rhinoceros's hide was caked with mud.",
+        "entities": [
+            [
+                2,
+                10,
+                "ANIMAL"
+            ],
+            [
+                45,
+                57,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A solitary deer watched.",
+        "entities": [
+            [
+                11,
+                15,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The music was too loud at the party.",
+        "entities": []
+    },
+    {
+        "text": "A mother duck protects her ducklings.",
+        "entities": [
+            [
+                9,
+                13,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Several species appeared at the watering hole: an elephant, a hippopotamus, a deer, and a duck.",
+        "entities": [
+            [
+                50,
+                58,
+                "ANIMAL"
+            ],
+            [
+                62,
+                74,
+                "ANIMAL"
+            ],
+            [
+                78,
+                82,
+                "ANIMAL"
+            ],
+            [
+                90,
+                94,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The door was locked when he arrived.",
+        "entities": []
+    },
+    {
+        "text": "The hedgehog was hiding under the leaves.",
+        "entities": [
+            [
+                4,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A hippopotamus rested in the river.",
+        "entities": [
+            [
+                2,
+                14,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I saw a Bengal tiger at the zoo.",
+        "entities": [
+            [
+                15,
+                20,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I saw a duck at the lake.",
+        "entities": [
+            [
+                8,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The phone battery died during the call.",
+        "entities": []
+    },
+    {
+        "text": "I saw a duck swimming in the lake.",
+        "entities": [
+            [
+                8,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A baby rhinoceros stays close to its mother.",
+        "entities": [
+            [
+                7,
+                17,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "We tracked a coyote at dusk.",
+        "entities": [
+            [
+                13,
+                19,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Have you ever fed ducks at the park?",
+        "entities": [
+            [
+                18,
+                23,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "She bought a gift for her best friend.",
+        "entities": []
+    },
+    {
+        "text": "The eagle caught a fish.",
+        "entities": [
+            [
+                4,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "There is a duck in the picture.",
+        "entities": [
+            [
+                11,
+                15,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I saw a white rhinoceros at the zoo.",
+        "entities": [
+            [
+                14,
+                24,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A tiger, a rhinoceros, and an elephant left deep tracks along the muddy bank.",
+        "entities": [
+            [
+                2,
+                7,
+                "ANIMAL"
+            ],
+            [
+                11,
+                21,
+                "ANIMAL"
+            ],
+            [
+                30,
+                38,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Coyotes are found in North America.",
+        "entities": [
+            [
+                0,
+                7,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "On the trail a hedgehog and a deer shared a brief moment in the morning sun.",
+        "entities": [
+            [
+                15,
+                23,
+                "ANIMAL"
+            ],
+            [
+                30,
+                34,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A chimpanzee can use tools to get food.",
+        "entities": [
+            [
+                2,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Hunters glimpsed a coyote and a deer running along the ridge.",
+        "entities": [
+            [
+                19,
+                25,
+                "ANIMAL"
+            ],
+            [
+                32,
+                36,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The elephant sprayed water with its trunk.",
+        "entities": [
+            [
+                4,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Coyotes live in the wild and hunt for food.",
+        "entities": [
+            [
+                0,
+                7,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A lone coyote chased a flock of ducks as the morning fog cleared.",
+        "entities": [
+            [
+                7,
+                13,
+                "ANIMAL"
+            ],
+            [
+                32,
+                37,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The storm caused a power outage in the town.",
+        "entities": []
+    },
+    {
+        "text": "The tiger crossed the clearing.",
+        "entities": [
+            [
+                4,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The student asked a question during the lecture.",
+        "entities": []
+    },
+    {
+        "text": "Ducks migrate during the winter.",
+        "entities": [
+            [
+                0,
+                5,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "They watched the fireworks from the bridge.",
+        "entities": []
+    },
+    {
+        "text": "He listened carefully to the instructions.",
+        "entities": []
+    },
+    {
+        "text": "I saw a chimpanzee climbing a tree.",
+        "entities": [
+            [
+                8,
+                18,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "He bought a new phone yesterday.",
+        "entities": []
+    },
+    {
+        "text": "There was a duck on the pond.",
+        "entities": [
+            [
+                12,
+                16,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The festival attracted thousands of visitors.",
+        "entities": []
+    },
+    {
+        "text": "An eagle appears in this picture.",
+        "entities": [
+            [
+                3,
+                8,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Tigers have distinctive stripes.",
+        "entities": [
+            [
+                0,
+                6,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A tiger was stalking its prey.",
+        "entities": [
+            [
+                2,
+                7,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The eagle soared above the mountains.",
+        "entities": [
+            [
+                4,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "This photo clearly shows a coyote.",
+        "entities": [
+            [
+                27,
+                33,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "An eagle built a nest on the cliff.",
+        "entities": [
+            [
+                3,
+                8,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Hedgehogs are nocturnal animals.",
+        "entities": [
+            [
+                0,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Have you ever seen a coyote in real life?",
+        "entities": [
+            [
+                21,
+                27,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The tiger pounced on its prey.",
+        "entities": [
+            [
+                4,
+                9,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The riverbank had footprints from a hippopotamus and a rhinoceros where the mud was soft.",
+        "entities": [
+            [
+                36,
+                48,
+                "ANIMAL"
+            ],
+            [
+                55,
+                65,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "An eagle circled above while a tiger slipped through the tall grass.",
+        "entities": [
+            [
+                3,
+                8,
+                "ANIMAL"
+            ],
+            [
+                31,
+                36,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A coyote howled.",
+        "entities": [
+            [
+                2,
+                8,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A hedgehog rolled into a ball.",
+        "entities": [
+            [
+                2,
+                10,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The boat passed a marsh where ducks nested and a hippopotamus yawned on the bank.",
+        "entities": [
+            [
+                30,
+                35,
+                "ANIMAL"
+            ],
+            [
+                49,
+                61,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "An elephant sprayed water.",
+        "entities": [
+            [
+                3,
+                11,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "She left her umbrella at the office.",
+        "entities": []
+    },
+    {
+        "text": "A kangaroo hopped across the field.",
+        "entities": [
+            [
+                2,
+                10,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I can see a chimpanzee in the photo.",
+        "entities": [
+            [
+                12,
+                22,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A hippopotamus is clearly visible in this image.",
+        "entities": [
+            [
+                2,
+                14,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "An elephant was drinking water.",
+        "entities": [
+            [
+                3,
+                11,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A baby deer is called a fawn.",
+        "entities": [
+            [
+                7,
+                11,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A group of chimpanzees was making loud noises.",
+        "entities": [
+            [
+                11,
+                22,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A rhinoceros has a thick skin.",
+        "entities": [
+            [
+                2,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The elephant flapped its ears.",
+        "entities": [
+            [
+                4,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I saw a kangaroo at the wildlife park.",
+        "entities": [
+            [
+                8,
+                16,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A rhinoceros is clearly visible in this picture.",
+        "entities": [
+            [
+                2,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A hippopotamus was resting in the water.",
+        "entities": [
+            [
+                2,
+                14,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The flight was delayed due to bad weather.",
+        "entities": []
+    },
+    {
+        "text": "Rangers spotted a rhinoceros and later found pugmarks from a tiger near the riverbend.",
+        "entities": [
+            [
+                18,
+                28,
+                "ANIMAL"
+            ],
+            [
+                61,
+                66,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A kangaroo appears in this photo.",
+        "entities": [
+            [
+                2,
+                10,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "There is a rhinoceros in this image.",
+        "entities": [
+            [
+                11,
+                21,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "She turned off the light before leaving.",
+        "entities": []
+    },
+    {
+        "text": "A hippopotamus was bathing in the river.",
+        "entities": [
+            [
+                2,
+                14,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The coyote was looking for food.",
+        "entities": [
+            [
+                4,
+                10,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I saw a herd of elephants in the zoo.",
+        "entities": [
+            [
+                16,
+                25,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Tigers are powerful hunters.",
+        "entities": [
+            [
+                0,
+                6,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The duck quacked loudly.",
+        "entities": [
+            [
+                4,
+                8,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The phone rang in the middle of the night.",
+        "entities": []
+    },
+    {
+        "text": "It started raining in the evening.",
+        "entities": []
+    },
+    {
+        "text": "A kangaroo bounded across the field.",
+        "entities": [
+            [
+                2,
+                10,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I saw a baby hippopotamus at the zoo.",
+        "entities": [
+            [
+                13,
+                25,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A hedgehog is visible in this picture.",
+        "entities": [
+            [
+                2,
+                10,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Rhinoceroses have a strong horn.",
+        "entities": [
+            [
+                0,
+                12,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A deer crossed the road.",
+        "entities": [
+            [
+                2,
+                6,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A mother duck led her ducklings.",
+        "entities": [
+            [
+                9,
+                13,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I spotted a group of deer in the forest.",
+        "entities": [
+            [
+                21,
+                25,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The zookeeper watched as the chimpanzee fed the young and the elephant drank nearby.",
+        "entities": [
+            [
+                29,
+                39,
+                "ANIMAL"
+            ],
+            [
+                62,
+                70,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Volunteers fed the hedgehog leftovers, then watched a kangaroo bound across the field.",
+        "entities": [
+            [
+                19,
+                27,
+                "ANIMAL"
+            ],
+            [
+                54,
+                62,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "They decorated the house with colorful lights.",
+        "entities": []
+    },
+    {
+        "text": "I found a coyote in this image.",
+        "entities": [
+            [
+                10,
+                16,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "He saved the document on his laptop.",
+        "entities": []
+    },
+    {
+        "text": "Hippopotamuses spend most of their time in water.",
+        "entities": [
+            [
+                0,
+                14,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "I saw a hedgehog in my backyard.",
+        "entities": [
+            [
+                8,
+                16,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "There is a chimpanzee in this image.",
+        "entities": [
+            [
+                11,
+                21,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The hippopotamus opened its mouth.",
+        "entities": [
+            [
+                4,
+                16,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "This photo has a hedgehog in it.",
+        "entities": [
+            [
+                17,
+                25,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A duck was swimming in the pond.",
+        "entities": [
+            [
+                2,
+                6,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "She opened the letter with excitement.",
+        "entities": []
+    },
+    {
+        "text": "A tiger is present in this photo.",
+        "entities": [
+            [
+                2,
+                7,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "At the wildlife center a kangaroo greeted visitors while a chimpanzee observed from the enclosure.",
+        "entities": [
+            [
+                25,
+                33,
+                "ANIMAL"
+            ],
+            [
+                59,
+                69,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "An eagle soared high in the sky.",
+        "entities": [
+            [
+                3,
+                8,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A family of deer grazed while a rhinoceros snorted in the distance.",
+        "entities": [
+            [
+                12,
+                16,
+                "ANIMAL"
+            ],
+            [
+                32,
+                42,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "A hippopotamus can run surprisingly fast.",
+        "entities": [
+            [
+                2,
+                14,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "Deer are common in this area.",
+        "entities": [
+            [
+                0,
+                4,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The computer was running slowly.",
+        "entities": []
+    },
+    {
+        "text": "The deer was grazing near the river.",
+        "entities": [
+            [
+                4,
+                8,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "The city was crowded during the holiday.",
+        "entities": []
+    },
+    {
+        "text": "I can spot a deer in the photo.",
+        "entities": [
+            [
+                13,
+                17,
+                "ANIMAL"
+            ]
+        ]
+    },
+    {
+        "text": "An elephant walked through the jungle.",
+        "entities": [
+            [
+                3,
+                11,
+                "ANIMAL"
+            ]
+        ]
+    }
+]
