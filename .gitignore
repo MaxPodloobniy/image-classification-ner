@@ -45,3 +45,14 @@ Thumbs.db
 *.log
 *.sqlite
 temp_env/
+
+# Trained models
+models/
+*.keras
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Scraped/local datasets
+pinterest_dataset/
+dataset/
