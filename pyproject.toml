@@ -20,3 +20,7 @@ ignore_missing_imports = true        # ML libs (TF, spaCy) lack complete stubs
 disable_error_code = ["import-untyped"]
 warn_unused_ignores = true
 warn_redundant_casts = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
