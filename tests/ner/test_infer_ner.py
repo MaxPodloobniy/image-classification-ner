@@ -13,25 +13,12 @@ def test_extract_animals_raises_if_model_missing(tmp_path):
         extract_animals("I saw a tiger.", str(tmp_path / "missing_model"))
 
 
-def test_extract_animals_raises_on_empty_string(tmp_path):
+@pytest.mark.parametrize("bad_input", ["", "   ", 42, None, 3.14])
+def test_extract_animals_raises_on_invalid_text(bad_input, tmp_path):
     model_dir = tmp_path / "model"
     model_dir.mkdir()
     with pytest.raises(ValueError, match="non-empty string"):
-        extract_animals("", str(model_dir))
-
-
-def test_extract_animals_raises_on_whitespace_only(tmp_path):
-    model_dir = tmp_path / "model"
-    model_dir.mkdir()
-    with pytest.raises(ValueError, match="non-empty string"):
-        extract_animals("   ", str(model_dir))
-
-
-def test_extract_animals_raises_on_non_string_input(tmp_path):
-    model_dir = tmp_path / "model"
-    model_dir.mkdir()
-    with pytest.raises(ValueError, match="non-empty string"):
-        extract_animals(42, str(model_dir))
+        extract_animals(bad_input, str(model_dir))
 
 
 # ─── happy path with mocked spaCy model ───────────────────────────────────────
