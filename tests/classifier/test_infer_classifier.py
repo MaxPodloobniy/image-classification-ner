@@ -52,6 +52,40 @@ def test_classify_image_returns_class_and_confidence(mocker, tiny_image, classes
     assert np.issubdtype(call_args.dtype, np.floating)
 
 
+def test_classify_image_picks_correct_class_when_argmax_is_not_first(mocker, tiny_image, classes_json):
+    """Ensures argmax→class mapping works for non-zero winning index."""
+    model_path, _ = classes_json  # classes: {"tiger":0, "deer":1, "eagle":2}
+
+    fake_model = MagicMock()
+    fake_model.input_shape = (None, 10, 10, 3)
+    fake_model.predict.return_value = np.array([[0.05, 0.1, 0.85]])  # eagle wins
+    mocker.patch("src.classifier.infer_classifier.load_model", return_value=fake_model)
+
+    predicted, confidence = classify_image(tiny_image, model_path)
+
+    assert predicted == "eagle"
+    assert confidence == pytest.approx(0.85, abs=1e-6)
+
+
+def test_classify_image_uses_model_input_shape_for_preprocessing(mocker, tiny_image, classes_json):
+    """Ensures input_shape[1:3] is passed to preprocess_image as target_size."""
+    model_path, _ = classes_json
+
+    fake_model = MagicMock()
+    fake_model.input_shape = (None, 224, 224, 3)
+    fake_model.predict.return_value = np.array([[1.0, 0.0, 0.0]])
+
+    mocker.patch("src.classifier.infer_classifier.load_model", return_value=fake_model)
+    mock_preprocess = mocker.patch(
+        "src.classifier.infer_classifier.preprocess_image",
+        return_value=np.zeros((1, 224, 224, 3), dtype=np.float32),
+    )
+
+    classify_image(tiny_image, model_path)
+
+    mock_preprocess.assert_called_once_with(tiny_image, (224, 224))
+
+
 # ─── preprocess_image: shape + normalization ──────────────────────────────────
 
 def test_preprocess_image_shape_is_batch_hwc(tiny_image):

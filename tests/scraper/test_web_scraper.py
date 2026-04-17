@@ -49,6 +49,14 @@ def test_get_high_res_image_returns_none_on_request_exception(mocker):
     assert get_high_res_image("https://pin.it/3") is None
 
 
+def test_get_high_res_image_returns_none_on_unexpected_exception(mocker):
+    mocker.patch(
+        "src.classifier.web_scraper.requests.get",
+        side_effect=ValueError("malformed response"),
+    )
+    assert get_high_res_image("https://pin.it/5") is None
+
+
 def test_get_high_res_image_returns_none_when_no_image_tags(mocker):
     mocker.patch("src.classifier.web_scraper.requests.get", return_value=_mock_response(_EMPTY_HTML))
     assert get_high_res_image("https://pin.it/4") is None

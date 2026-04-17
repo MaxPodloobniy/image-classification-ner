@@ -52,6 +52,19 @@ def test_extract_animals_filters_only_animal_label(mocker, tmp_path):
     fake_nlp.assert_called_once_with(text)
 
 
+def test_extract_animals_returns_empty_list_when_no_entities(mocker, tmp_path):
+    model_dir = tmp_path / "model"
+    model_dir.mkdir()
+
+    fake_doc = MagicMock()
+    fake_doc.ents = []
+    fake_nlp = MagicMock(return_value=fake_doc)
+    mocker.patch("src.ner.infer_ner.spacy.load", return_value=fake_nlp)
+
+    result = extract_animals("No animals here.", str(model_dir))
+    assert result == []
+
+
 def test_extract_animals_lowercases_output(mocker, tmp_path):
     model_dir = tmp_path / "model"
     model_dir.mkdir()
