@@ -33,6 +33,8 @@ def _make_ent(text, label):
 def test_extract_animals_filters_only_animal_label(mocker, tmp_path):
     model_dir = tmp_path / "model"
     model_dir.mkdir()
+    model_path = str(model_dir)
+    text = "Tiger in London, a Deer nearby."
 
     fake_doc = MagicMock()
     fake_doc.ents = [
@@ -41,10 +43,13 @@ def test_extract_animals_filters_only_animal_label(mocker, tmp_path):
         _make_ent("Deer", "ANIMAL"),
     ]
     fake_nlp = MagicMock(return_value=fake_doc)
-    mocker.patch("src.ner.infer_ner.spacy.load", return_value=fake_nlp)
+    mock_load = mocker.patch("src.ner.infer_ner.spacy.load", return_value=fake_nlp)
 
-    result = extract_animals("Tiger in London, a Deer nearby.", str(model_dir))
+    result = extract_animals(text, model_path)
+
     assert result == ["tiger", "deer"]
+    mock_load.assert_called_once_with(model_path)
+    fake_nlp.assert_called_once_with(text)
 
 
 def test_extract_animals_lowercases_output(mocker, tmp_path):

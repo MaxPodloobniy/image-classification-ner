@@ -35,18 +35,21 @@ def test_classify_image_raises_if_classes_json_missing(tiny_image, tmp_path):
 def test_classify_image_returns_class_and_confidence(mocker, tiny_image, classes_json):
     model_path, _ = classes_json
 
-    # Stub the Keras model: input_shape = (None, 10, 10, 3), predict returns
-    # a softmax-like vector where class index 0 (tiger) wins with ~0.9
     fake_model = MagicMock()
     fake_model.input_shape = (None, 10, 10, 3)
     fake_model.predict.return_value = np.array([[0.9, 0.07, 0.03]])
-    mocker.patch("src.classifier.infer_classifier.load_model", return_value=fake_model)
+    mock_load = mocker.patch("src.classifier.infer_classifier.load_model", return_value=fake_model)
 
     predicted, confidence = classify_image(tiny_image, model_path)
 
     assert predicted == "tiger"
     assert confidence == pytest.approx(0.9, abs=1e-6)
-    fake_model.predict.assert_called_once()
+    # assert load_model received the exact model path
+    mock_load.assert_called_once_with(model_path)
+    # assert predict was called with an array of correct shape and dtype
+    call_args = fake_model.predict.call_args[0][0]
+    assert call_args.shape == (1, 10, 10, 3)
+    assert np.issubdtype(call_args.dtype, np.floating)
 
 
 # ─── preprocess_image: shape + normalization ──────────────────────────────────

@@ -1,4 +1,6 @@
 """Unit tests for src.classifier.web_scraper."""
+from unittest.mock import MagicMock, call
+
 import requests
 import pytest
 
@@ -20,7 +22,6 @@ _EMPTY_HTML = "<html><body></body></html>"
 
 
 def _mock_response(text, status=200):
-    from unittest.mock import MagicMock
     r = MagicMock()
     r.text = text
     r.status_code = status
@@ -64,21 +65,26 @@ def test_download_images_creates_output_dir(mocker, tmp_path):
 
 def test_download_images_counts_saved_and_failed(mocker, tmp_path):
     save_path = str(tmp_path / "imgs")
+    pin_urls = ["https://pin.it/1", "https://pin.it/2"]
 
-    # get_high_res_image: first pin → url, second → None (counted as failed)
-    mocker.patch(
+    mock_get_image = mocker.patch(
         "src.classifier.web_scraper.get_high_res_image",
         side_effect=["https://cdn.example.com/a.jpg", None],
     )
 
-    # successful image download
-    from unittest.mock import MagicMock
     img_resp = MagicMock()
     img_resp.raise_for_status = MagicMock()
     img_resp.iter_content = MagicMock(return_value=[b"data"])
     mocker.patch("src.classifier.web_scraper.requests.get", return_value=img_resp)
     mocker.patch("src.classifier.web_scraper.time.sleep")
 
-    count, failed = download_images(["https://pin.it/1", "https://pin.it/2"], save_path)
+    count, failed = download_images(pin_urls, save_path)
+
     assert count == 1
     assert failed == 1
+    # assert each pin URL was processed
+    mock_get_image.assert_has_calls([call(pin_urls[0]), call(pin_urls[1])])
+    # assert file was actually written to disk with the right name
+    saved_file = (tmp_path / "imgs" / "0.jpg")
+    assert saved_file.exists()
+    assert saved_file.read_bytes() == b"data"
