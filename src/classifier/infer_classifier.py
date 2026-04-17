@@ -5,13 +5,14 @@ This script loads a trained Keras image classification model and predicts
 the animal class from a given image, returning the predicted class
 and confidence score.
 """
-import os
 import argparse
 import json
 import logging
+import os
+
 import numpy as np
-from tensorflow.keras.utils import load_img, img_to_array
 from tensorflow.keras.models import load_model
+from tensorflow.keras.utils import img_to_array, load_img
 
 logger = logging.getLogger(__name__)
 
@@ -51,7 +52,7 @@ def classify_image(image_path, model_path):
         raise FileNotFoundError(f"Class names file not found: {classes_path}")
 
     # Load class names
-    with open(classes_path, 'r') as f:
+    with open(classes_path) as f:
         class_indices = json.load(f)
 
     # Load the model

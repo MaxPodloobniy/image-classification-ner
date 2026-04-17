@@ -7,6 +7,7 @@ from text with image classification to verify if the statement matches reality.
 import argparse
 import logging
 import sys
+
 from src.classifier.infer_classifier import classify_image
 from src.ner.infer_ner import extract_animals
 

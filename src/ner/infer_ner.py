@@ -5,8 +5,9 @@ This script loads a trained spaCy model and identifies entities labeled as "ANIM
 within a given text input.
 """
 import argparse
-import os
 import logging
+import os
+
 import spacy
 
 logger = logging.getLogger(__name__)

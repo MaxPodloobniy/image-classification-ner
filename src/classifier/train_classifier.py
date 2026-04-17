@@ -6,17 +6,18 @@ using a fine-tuned VGG16 model with custom dense layers. The script handles
 data loading, preprocessing, model training with callbacks, and saves both
 the trained model and class indices for inference.
 """
-import os
 import argparse
 import json
 import logging
+import os
+
 import pandas as pd
 import tensorflow as tf
+from sklearn.model_selection import train_test_split
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
+from tensorflow.keras.metrics import AUC, Precision, Recall
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
-from tensorflow.keras.metrics import Precision, Recall, AUC, TopKCategoricalAccuracy
-from sklearn.model_selection import train_test_split
 
 logger = logging.getLogger(__name__)
 

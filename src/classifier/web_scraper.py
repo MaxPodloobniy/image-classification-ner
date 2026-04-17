@@ -4,13 +4,14 @@ Pinterest image scraper for collecting animal images.
 This script uses Playwright to scrape Pinterest search results
 and download high-resolution images.
 """
-import time
-import os
-import requests
 import argparse
 import logging
-from playwright.sync_api import sync_playwright
+import os
+import time
+
+import requests
 from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
 # Configuration constants
 SCROLL_DISTANCE = 4000

@@ -4,18 +4,19 @@ line-length = 120
 
 [tool.ruff.lint]
 select = [
-    "E",   # pycodestyle errors
-    "W",   # pycodestyle warnings
-    "F",   # pyflakes
-    "I",   # isort
-    "UP",  # pyupgrade
+    "E",
+    "W",
+    "F",
+    "I",
+    "UP",
 ]
 ignore = [
-    "E501",  # line too long — handled by formatter
+    "E501",
 ]
 
 [tool.mypy]
 python_version = "3.12"
-ignore_missing_imports = true   # ML libs (TF, spaCy) lack complete stubs
+ignore_missing_imports = true        # ML libs (TF, spaCy) lack complete stubs
+disable_error_code = ["import-untyped"]
 warn_unused_ignores = true
 warn_redundant_casts = true

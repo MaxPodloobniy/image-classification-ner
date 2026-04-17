@@ -6,15 +6,16 @@ the 'ANIMAL' entity type. The script uses spaCy's en_core_web_md base model,
 adds a custom NER component, trains it on provided data, and evaluates
 performance on a test set.
 """
-import spacy
-import random
-import os
-import json
 import argparse
+import json
 import logging
-from spacy.training.example import Example
+import os
+import random
+
+import spacy
 from spacy.scorer import Scorer
-from spacy.util import minibatch, compounding
+from spacy.training.example import Example
+from spacy.util import compounding, minibatch
 
 logger = logging.getLogger(__name__)
 
@@ -33,7 +34,7 @@ def parse_args():
 def load_data(filepath):
     """Function for loading json format dataset for model training and testing"""
     logger.info(f"Loading data from {filepath}")
-    with open(filepath, 'r') as f:
+    with open(filepath) as f:
         loaded_data = json.load(f)
 
     data = []
@@ -130,7 +131,7 @@ def main():
 
         # Verify the saved model
         try:
-            nlp_loaded = spacy.load(args.model_path)
+            spacy.load(args.model_path)
             logger.info("Successfully loaded saved model for verification")
         except Exception as e:
             logger.error(f"Error loading saved model: {e}")
@@ -146,7 +147,7 @@ def main():
     scorer = Scorer()
     scores = scorer.score(examples)
 
-    logger.info(f"Evaluation results:")
+    logger.info("Evaluation results:")
     logger.info(f"Precision: {scores['ents_p']:.2%}")
     logger.info(f"Recall: {scores['ents_r']:.2%}")
     logger.info(f"F1-Score: {scores['ents_f']:.2%}")
