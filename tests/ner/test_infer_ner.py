@@ -3,7 +3,7 @@ from unittest.mock import MagicMock
 
 import pytest
 
-from src.ner.infer_ner import extract_animals
+from src.ner.infer_ner import extract_animals, extract_from_nlp
 
 
 # ─── error paths ──────────────────────────────────────────────────────────────
@@ -63,6 +63,18 @@ def test_extract_animals_returns_empty_list_when_no_entities(mocker, tmp_path):
 
     result = extract_animals("No animals here.", str(model_dir))
     assert result == []
+
+
+def test_extract_from_nlp_uses_pre_loaded_pipeline():
+    """extract_from_nlp works with a pre-loaded nlp — no disk I/O."""
+    fake_doc = MagicMock()
+    fake_doc.ents = [_make_ent("Tiger", "ANIMAL"), _make_ent("London", "GPE")]
+    fake_nlp = MagicMock(return_value=fake_doc)
+
+    result = extract_from_nlp("Tiger is in London.", fake_nlp)
+
+    assert result == ["tiger"]
+    fake_nlp.assert_called_once_with("Tiger is in London.")
 
 
 def test_extract_animals_lowercases_output(mocker, tmp_path):
