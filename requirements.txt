@@ -1,4 +1,6 @@
-tensorflow>=2.16
+tensorflow>=2.21.0rc0
+onnxruntime>=1.18
+tf2onnx>=1.16
 spacy>=3.8
 numpy>=1.26,<2.0
 pillow>=10.0
