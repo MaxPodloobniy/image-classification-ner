@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animal Verifier</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>🐾 Animal Verifier</h1>
+    <p class="subtitle">Upload an image and describe what animal you see. We'll check if the statement is true.</p>
+
+    <form id="verify-form">
+      <div class="field">
+        <label for="image-input">Image</label>
+        <div class="file-drop" id="file-drop">
+          <input type="file" id="image-input" name="image" accept="image/*" required />
+          <span id="file-label">Click to choose or drag an image here</span>
+        </div>
+        <img id="preview" src="" alt="" />
+      </div>
+
+      <div class="field">
+        <label for="text-input">Statement</label>
+        <textarea
+          id="text-input"
+          name="text"
+          rows="3"
+          placeholder="e.g. There is a tiger in the image."
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit" id="submit-btn">Verify</button>
+    </form>
+
+    <div id="result" class="result hidden"></div>
+  </main>
+
+  <script src="/static/main.js"></script>
+</body>
+</html>
