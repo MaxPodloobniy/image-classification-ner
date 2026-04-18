@@ -54,7 +54,8 @@ def test_classify_image_returns_first_class(mocker, tiny_image, classes_json):
     onnx_path = model_path.replace(".keras", ".onnx")
     # classes_json writes {"tiger":0,"deer":1,"eagle":2} next to model_path;
     # we need the same JSON next to onnx_path.
-    import json, pathlib
+    import json
+    import pathlib
     pathlib.Path(onnx_path.replace(".onnx", "_classes.json")).write_text(
         json.dumps({"tiger": 0, "deer": 1, "eagle": 2})
     )
@@ -73,7 +74,8 @@ def test_classify_image_picks_correct_class_when_argmax_is_not_first(mocker, tin
     """Index 2 winning → 'eagle'; ensures argmax→name mapping is correct."""
     model_path, _ = classes_json
     onnx_path = model_path.replace(".keras", ".onnx")
-    import json, pathlib
+    import json
+    import pathlib
     pathlib.Path(onnx_path.replace(".onnx", "_classes.json")).write_text(
         json.dumps({"tiger": 0, "deer": 1, "eagle": 2})
     )
@@ -92,7 +94,8 @@ def test_classify_image_uses_model_input_shape_for_preprocessing(mocker, tiny_im
     """input_meta.shape (N,H,W,C) is used to determine preprocessing target size."""
     model_path, _ = classes_json
     onnx_path = model_path.replace(".keras", ".onnx")
-    import json, pathlib
+    import json
+    import pathlib
     pathlib.Path(onnx_path.replace(".onnx", "_classes.json")).write_text(
         json.dumps({"tiger": 0, "deer": 1, "eagle": 2})
     )
@@ -114,7 +117,8 @@ def test_classify_image_reuses_provided_session(mocker, tiny_image, classes_json
     """When session is passed, ort.InferenceSession is NOT called again."""
     model_path, _ = classes_json
     onnx_path = model_path.replace(".keras", ".onnx")
-    import json, pathlib
+    import json
+    import pathlib
     pathlib.Path(onnx_path.replace(".onnx", "_classes.json")).write_text(
         json.dumps({"tiger": 0, "deer": 1, "eagle": 2})
     )

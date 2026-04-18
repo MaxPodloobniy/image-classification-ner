@@ -5,7 +5,6 @@ import pytest
 
 from src.ner.train_ner import load_data, load_or_download_model
 
-
 # ─── load_data ────────────────────────────────────────────────────────────────
 
 def test_load_data_returns_tuples_with_entities(ner_dataset_file):

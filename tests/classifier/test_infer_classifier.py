@@ -6,7 +6,6 @@ import pytest
 
 from src.classifier.infer_classifier import classify_image, preprocess_image
 
-
 # ─── classify_image: error paths ──────────────────────────────────────────────
 
 def test_classify_image_raises_if_image_missing(classes_json, tmp_path):

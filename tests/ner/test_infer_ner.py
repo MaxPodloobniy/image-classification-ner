@@ -5,7 +5,6 @@ import pytest
 
 from src.ner.infer_ner import extract_animals, extract_from_nlp
 
-
 # ─── error paths ──────────────────────────────────────────────────────────────
 
 def test_extract_animals_raises_if_model_missing(tmp_path):

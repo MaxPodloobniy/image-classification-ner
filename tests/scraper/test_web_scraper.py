@@ -2,7 +2,6 @@
 from unittest.mock import MagicMock, call
 
 import requests
-import pytest
 
 from src.classifier.web_scraper import download_images, get_high_res_image
 
